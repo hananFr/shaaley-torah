@@ -1,0 +1,35 @@
+.scheduleTableContainer {
+  overflow-x: auto;
+  /* מאפשר גלילה אופקית במסכים צרים */
+  width: 100%;
+  /* מגביל את הגודל לכול אורך המסך */
+}
+
+.scheduleTable {
+  min-width: 600px;
+  /* מגדיר רוחב מינימלי לטבלה */
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+.scheduleHeader, .scheduleCell {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+  word-break: break-word;
+}
+
+@media (max-width: 768px) {
+  .scheduleHeader, .scheduleCell {
+    padding: 5px;
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 600px) {
+  .scheduleHeader, .scheduleCell {
+    padding: 4px;
+    font-size: 0.7em;
+  }
+}

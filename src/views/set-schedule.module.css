@@ -1,0 +1,61 @@
+/* ScheduleForm.module.css */
+.formContainer {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dayTitle {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.daySchedule {
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: calc(50% - 12px);
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.removeBtn {
+  background-color: #f44336;
+}
+
+.removeBtn:hover {
+  background-color: #e31b0c;
+}
+
+.addBtn {
+  background-color: #2196F3;
+}
+
+.addBtn:hover {
+  background-color: #0b7dda;
+}
+
+.blockDisplay {
+  display: block;
+  width: auto;
+}
